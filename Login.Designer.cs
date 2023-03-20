@@ -1,6 +1,6 @@
 ﻿namespace CriandoMinhaAutenticacao
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,6 +34,7 @@
             label2 = new Label();
             lbllSenha = new LinkLabel();
             BtnEntrar = new Button();
+            BtnCadastrar = new Button();
             SuspendLayout();
             // 
             // TxtEmail
@@ -83,26 +84,37 @@
             // 
             // BtnEntrar
             // 
-            BtnEntrar.Location = new Point(141, 217);
+            BtnEntrar.Location = new Point(87, 213);
             BtnEntrar.Name = "BtnEntrar";
             BtnEntrar.Size = new Size(75, 23);
             BtnEntrar.TabIndex = 5;
             BtnEntrar.Text = "Entrar";
             BtnEntrar.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // BtnCadastrar
+            // 
+            BtnCadastrar.Location = new Point(190, 213);
+            BtnCadastrar.Name = "BtnCadastrar";
+            BtnCadastrar.Size = new Size(75, 23);
+            BtnCadastrar.TabIndex = 6;
+            BtnCadastrar.Text = "Cadastro";
+            BtnCadastrar.UseVisualStyleBackColor = true;
+            BtnCadastrar.Click += BtnCadastrar_Click;
+            // 
+            // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(355, 320);
+            Controls.Add(BtnCadastrar);
             Controls.Add(BtnEntrar);
             Controls.Add(lbllSenha);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(TxtSenha);
             Controls.Add(TxtEmail);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Login";
+            Text = "Login";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -115,5 +127,6 @@
         private Label label2;
         private LinkLabel lbllSenha;
         private Button BtnEntrar;
+        private Button BtnCadastrar;
     }
 }
