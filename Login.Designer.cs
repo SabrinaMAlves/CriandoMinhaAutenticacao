@@ -90,6 +90,7 @@
             BtnEntrar.TabIndex = 5;
             BtnEntrar.Text = "Entrar";
             BtnEntrar.UseVisualStyleBackColor = true;
+            BtnEntrar.Click += BtnEntrar_Click;
             // 
             // BtnCadastrar
             // 
