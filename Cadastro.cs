@@ -7,9 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using FirebaseAdmin;
-using FirebaseAdmin.Auth;
-using Google.Apis.Auth.OAuth2;
+//Documentação oficial google 
+//using FirebaseAdmin;
+//using FirebaseAdmin.Auth;
+//using Google.Apis.Auth.OAuth2;
 
 namespace CriandoMinhaAutenticacao
 {
