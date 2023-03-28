@@ -1,6 +1,6 @@
 ﻿namespace CriandoMinhaAutenticacao
 {
-    partial class Principal
+    partial class lboPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -41,13 +41,13 @@
             BtnLogoff.UseVisualStyleBackColor = true;
             BtnLogoff.Click += BtnLogoff_Click;
             // 
-            // Principal
+            // lboPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(334, 417);
             Controls.Add(BtnLogoff);
-            Name = "Principal";
+            Name = "lboPrincipal";
             Text = "Principal";
             ResumeLayout(false);
         }

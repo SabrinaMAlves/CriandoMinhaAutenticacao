@@ -31,7 +31,7 @@ namespace CriandoMinhaAutenticacao
             if (Cliente.User != null)
             {
                 ApplicationConfiguration.Initialize();
-                Application.Run(new Principal());
+                Application.Run(new lboPrincipal());
 
             }
             else

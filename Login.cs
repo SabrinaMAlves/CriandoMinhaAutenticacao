@@ -50,7 +50,7 @@ namespace CriandoMinhaAutenticacao
                     ).Result;
                 MessageBox.Show(auth.User.Uid);
                 Thread.Sleep(1000);
-                Principal principal = new Principal();
+                lboPrincipal principal = new lboPrincipal();
                 Hide();
                 principal.Closed += fecharFormulario;
                 principal.Show();

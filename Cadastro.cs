@@ -75,7 +75,7 @@ namespace CriandoMinhaAutenticacao
                 Cliente.CreateUserWithEmailAndPasswordAsync
                 (TxtEmail.Text, TxtSenha.Text);
                 Thread.Sleep(1000);
-                Principal principal = new Principal();
+                lboPrincipal principal = new lboPrincipal();
                 Hide();
                 principal.Closed += fecharFormulario;
                 principal.Show();
