@@ -33,9 +33,10 @@
             // 
             // BtnLogoff
             // 
-            BtnLogoff.Location = new Point(232, 40);
+            BtnLogoff.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnLogoff.Location = new Point(90, 154);
             BtnLogoff.Name = "BtnLogoff";
-            BtnLogoff.Size = new Size(75, 23);
+            BtnLogoff.Size = new Size(133, 54);
             BtnLogoff.TabIndex = 0;
             BtnLogoff.Text = "Logoff";
             BtnLogoff.UseVisualStyleBackColor = true;

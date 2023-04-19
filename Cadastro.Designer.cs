@@ -40,31 +40,34 @@
             // 
             // TxtEmail
             // 
-            TxtEmail.Location = new Point(120, 85);
+            TxtEmail.Location = new Point(52, 76);
             TxtEmail.Name = "TxtEmail";
-            TxtEmail.Size = new Size(100, 23);
+            TxtEmail.PlaceholderText = "E-mail existente";
+            TxtEmail.Size = new Size(170, 23);
             TxtEmail.TabIndex = 0;
             // 
             // TxtSenha
             // 
-            TxtSenha.Location = new Point(120, 161);
+            TxtSenha.Location = new Point(52, 165);
             TxtSenha.Name = "TxtSenha";
             TxtSenha.PasswordChar = '☻';
-            TxtSenha.Size = new Size(100, 23);
+            TxtSenha.PlaceholderText = "Mínimo de 8 caracteres";
+            TxtSenha.Size = new Size(170, 23);
             TxtSenha.TabIndex = 1;
             // 
             // Txtconfirmar
             // 
-            Txtconfirmar.Location = new Point(120, 245);
+            Txtconfirmar.Location = new Point(52, 247);
             Txtconfirmar.Name = "Txtconfirmar";
-            Txtconfirmar.PasswordChar = '☻';
-            Txtconfirmar.Size = new Size(100, 23);
+            Txtconfirmar.PasswordChar = '*';
+            Txtconfirmar.PlaceholderText = "Digita novamente a senha";
+            Txtconfirmar.Size = new Size(170, 23);
             Txtconfirmar.TabIndex = 2;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(120, 49);
+            label1.Location = new Point(52, 41);
             label1.Name = "label1";
             label1.Size = new Size(105, 15);
             label1.TabIndex = 3;
@@ -73,7 +76,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(120, 134);
+            label2.Location = new Point(50, 134);
             label2.Name = "label2";
             label2.Size = new Size(102, 15);
             label2.TabIndex = 4;
@@ -82,7 +85,7 @@
             // label
             // 
             label.AutoSize = true;
-            label.Location = new Point(120, 212);
+            label.Location = new Point(50, 214);
             label.Name = "label";
             label.Size = new Size(118, 15);
             label.TabIndex = 5;
@@ -90,7 +93,7 @@
             // 
             // BtnCadastrar
             // 
-            BtnCadastrar.Location = new Point(82, 297);
+            BtnCadastrar.Location = new Point(50, 318);
             BtnCadastrar.Name = "BtnCadastrar";
             BtnCadastrar.Size = new Size(75, 23);
             BtnCadastrar.TabIndex = 6;
@@ -100,7 +103,7 @@
             // 
             // BtnCancelar
             // 
-            BtnCancelar.Location = new Point(191, 297);
+            BtnCancelar.Location = new Point(171, 318);
             BtnCancelar.Name = "BtnCancelar";
             BtnCancelar.Size = new Size(75, 23);
             BtnCancelar.TabIndex = 7;
@@ -112,7 +115,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(323, 429);
+            ClientSize = new Size(291, 429);
             Controls.Add(BtnCancelar);
             Controls.Add(BtnCadastrar);
             Controls.Add(label);

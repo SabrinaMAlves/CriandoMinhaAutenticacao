@@ -34,9 +34,9 @@ namespace CriandoMinhaAutenticacao
             {
                 var config = new FirebaseAuthConfig
                 {
-                    ApiKey = "AIzaSyD7LUHpfYpYRNEP32olS3m-TWzU_y3yM6U",
+                    ApiKey = "AIzaSyD7LUHpfYpYRNEP32olS3m-TWzU_y3yM6U", // chave do firebase
 
-                    AuthDomain = "aula-09-03-2023-138a2.firebaseapp.com",
+                    AuthDomain = "aula-09-03-2023-138a2.firebaseapp.com", // firebase
                     Providers = new FirebaseAuthProvider[]
                 {
                     new EmailProvider()
