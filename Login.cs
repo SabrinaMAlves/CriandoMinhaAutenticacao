@@ -55,14 +55,19 @@ namespace CriandoMinhaAutenticacao
                 principal.Closed += fecharFormulario;
                 principal.Show();
             }
-            catch (Exception ex)  
+            catch (Exception ex)
             {
                 if (ex.Message.Contains("EMAIL_NOT_FOUND"))
                     MessageBox.Show("Não existe esse usuario");
                 else if (ex.Message.Contains("INVALID_PASSWORD"))
                     MessageBox.Show("Senha incorreta");
-                else  MessageBox.Show(ex.Message);
+                else MessageBox.Show(ex.Message);
             }
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

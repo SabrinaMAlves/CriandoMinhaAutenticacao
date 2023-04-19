@@ -41,7 +41,7 @@
             // 
             TxtEmail.Location = new Point(114, 67);
             TxtEmail.Name = "TxtEmail";
-            TxtEmail.PlaceholderText = "Nome@servidor.com";
+            TxtEmail.PlaceholderText = "Seu e-mail";
             TxtEmail.Size = new Size(128, 23);
             TxtEmail.TabIndex = 0;
             // 
@@ -49,8 +49,8 @@
             // 
             TxtSenha.Location = new Point(115, 133);
             TxtSenha.Name = "TxtSenha";
-            TxtSenha.PasswordChar = '☻';
-            TxtSenha.PlaceholderText = "Uzumaki";
+            TxtSenha.PasswordChar = '*';
+            TxtSenha.PlaceholderText = "Sua senha";
             TxtSenha.Size = new Size(127, 23);
             TxtSenha.TabIndex = 1;
             // 
@@ -106,7 +106,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(355, 320);
+            BackColor = SystemColors.ButtonFace;
+            ClientSize = new Size(366, 322);
             Controls.Add(BtnCadastrar);
             Controls.Add(BtnEntrar);
             Controls.Add(lbllSenha);
@@ -116,6 +117,7 @@
             Controls.Add(TxtEmail);
             Name = "Login";
             Text = "Login";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }
